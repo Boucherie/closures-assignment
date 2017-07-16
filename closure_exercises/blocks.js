@@ -22,11 +22,17 @@ console.log(smoothie);
 
 //moved smoothie above function declaration
 
-function callExample(){
-  for (var index = 0; index < 5; index++) {
-    // ...
-  }
-}
-console.log(index);
+// function callExample(){
+//   for (var index = 0; index < 5; index++) {
+//     // ...
+//   }
+// }
+// console.log(index);
 
-// index on same level; move for loop iside a function
+// index on same level; move for loop iside a function to remove console access (works!)
+
+var items = ['glasses', 'toothpaste', 'wallet'];
+items.forEach(function(item) {
+  var lastItem = item;
+  console.log(lastItem);
+});
