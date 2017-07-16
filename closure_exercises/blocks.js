@@ -36,3 +36,5 @@ items.forEach(function(item) {
   var lastItem = item;
   console.log(lastItem);
 });
+
+// move console.log(lastItem) inside function, working now (called 'beside')
