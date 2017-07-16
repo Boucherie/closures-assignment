@@ -6,7 +6,10 @@ var personToVisit = "best friend";
 // YOUR CODE HERE ------------------------
 
 
-
+function flyTo(city) {
+  personToVisit = "best friend";
+  console.log("Enjoy your visit to " + city + " to visit your " + personToVisit + ".");
+}
 // ---------------------------------------
 
 flyTo("Shanghai");
