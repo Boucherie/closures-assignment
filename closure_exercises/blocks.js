@@ -11,3 +11,22 @@ console.log(streetNumber);
 // address not defined, address in buildHouse is a placeholder
 // result: ReferenceError: address is not defined
 // altered to work (streetNumber)
+var smoothie = 'strawberry banana';
+var determined = false;
+if (determined) {
+
+}
+console.log(smoothie);
+
+// prediction: smoothie declared inside function, not accessible outside; schrodinger's smoothie
+
+//moved smoothie above function declaration
+
+function callExample(){
+  for (var index = 0; index < 5; index++) {
+    // ...
+  }
+}
+console.log(index);
+
+// index on same level; move for loop iside a function
