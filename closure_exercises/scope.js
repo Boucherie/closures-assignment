@@ -1,4 +1,3 @@
-// Exercises:
 
 // ##Functional Scope
 // ##Exercise 1
